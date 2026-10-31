@@ -1,0 +1,95 @@
+{
+  "context": {
+    "buildId": "01M69MD3JZ582273ZMQYZ7ZMVN",
+    "commitSha": "",
+    "parentBuildId": null,
+    "repo": "jeffy555/rootmodule",
+    "workspace": "SpiritOps"
+  },
+  "edges": [
+    {
+      "label": "depends on",
+      "source": "azurerm_network_security_group.nsg-spiritops-network-demo-dev",
+      "target": "azurerm_subnet_network_security_group_association.snet-nsg-association"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_resource_group.rg-spiritops-network-demo-dev",
+      "target": "azurerm_network_security_group.nsg-spiritops-network-demo-dev"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_resource_group.rg-spiritops-network-demo-dev",
+      "target": "azurerm_subnet.snet-app-dev"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_resource_group.rg-spiritops-network-demo-dev",
+      "target": "azurerm_virtual_network.vnet-spiritops-network-demo-dev"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_subnet.snet-app-dev",
+      "target": "azurerm_subnet_network_security_group_association.snet-nsg-association"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_virtual_network.vnet-spiritops-network-demo-dev",
+      "target": "azurerm_subnet.snet-app-dev"
+    }
+  ],
+  "generator": "spiritops-dagre-v1",
+  "nodes": [
+    {
+      "address": "azurerm_network_security_group.nsg-spiritops-network-demo-dev",
+      "kind": "azurerm_network_security_group",
+      "layer": "security",
+      "name": "nsg-spiritops-network-demo-dev",
+      "source": {
+        "path": "main.tf"
+      },
+      "state": "create"
+    },
+    {
+      "address": "azurerm_resource_group.rg-spiritops-network-demo-dev",
+      "kind": "azurerm_resource_group",
+      "layer": "compute",
+      "name": "rg-spiritops-network-demo-dev",
+      "source": {
+        "path": "main.tf"
+      },
+      "state": "create"
+    },
+    {
+      "address": "azurerm_subnet.snet-app-dev",
+      "kind": "azurerm_subnet",
+      "layer": "networking",
+      "name": "snet-app-dev",
+      "source": {
+        "path": "main.tf"
+      },
+      "state": "create"
+    },
+    {
+      "address": "azurerm_subnet_network_security_group_association.snet-nsg-association",
+      "kind": "azurerm_subnet_network_security_group_association",
+      "layer": "compute",
+      "name": "azurerm_subnet_network_security_group_association.snet-nsg-association",
+      "source": {
+        "path": "main.tf"
+      },
+      "state": "create"
+    },
+    {
+      "address": "azurerm_virtual_network.vnet-spiritops-network-demo-dev",
+      "kind": "azurerm_virtual_network",
+      "layer": "networking",
+      "name": "vnet-spiritops-network-demo-dev",
+      "source": {
+        "path": "main.tf"
+      },
+      "state": "create"
+    }
+  ],
+  "version": 1
+}
