@@ -1,8 +1,8 @@
 {
   "context": {
-    "buildId": "01M6NKJH05ETS57ZMM1FD8YDAS",
-    "commitSha": "77126d03fb872df330d15e38854bf8594883141d",
-    "parentBuildId": "01M69MD3JZ582273ZMQYZ7ZMVN",
+    "buildId": "01M6P9PYRSKHHA5E1S4XBN4HW2",
+    "commitSha": "8c08d38cc94d23ca532d502de069242bf7d37b0e",
+    "parentBuildId": "01M6NKJH05ETS57ZMM1FD8YDAS",
     "repo": "jeffy555/rootmodule",
     "workspace": "SpiritOps"
   },
@@ -20,7 +20,22 @@
     {
       "label": "depends on",
       "source": "azurerm_resource_group.rg-spiritops-network-demo-dev",
+      "target": "azurerm_linux_web_app.app-spiritops-root-dev"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_resource_group.rg-spiritops-network-demo-dev",
       "target": "azurerm_network_security_group.nsg-spiritops-network-demo-dev"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_resource_group.rg-spiritops-network-demo-dev",
+      "target": "azurerm_service_plan.asp-spiritops-root-dev"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_resource_group.rg-spiritops-network-demo-dev",
+      "target": "azurerm_storage_account.stspiritopsrootdev26"
     },
     {
       "label": "depends on",
@@ -31,6 +46,11 @@
       "label": "depends on",
       "source": "azurerm_resource_group.rg-spiritops-network-demo-dev",
       "target": "azurerm_virtual_network.vnet-spiritops-network-demo-dev"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_service_plan.asp-spiritops-root-dev",
+      "target": "azurerm_linux_web_app.app-spiritops-root-dev"
     },
     {
       "label": "depends on",
@@ -50,6 +70,16 @@
       "kind": "azurerm_cognitive_account",
       "layer": "compute",
       "name": "spiritops-openai-cv",
+      "source": {
+        "path": "main.tf"
+      },
+      "state": "drift"
+    },
+    {
+      "address": "azurerm_linux_web_app.app-spiritops-root-dev",
+      "kind": "azurerm_linux_web_app",
+      "layer": "compute",
+      "name": "app-spiritops-root-dev",
       "source": {
         "path": "main.tf"
       },
@@ -76,6 +106,26 @@
       "state": "unchanged"
     },
     {
+      "address": "azurerm_service_plan.asp-spiritops-root-dev",
+      "kind": "azurerm_service_plan",
+      "layer": "compute",
+      "name": "asp-spiritops-root-dev",
+      "source": {
+        "path": "main.tf"
+      },
+      "state": "create"
+    },
+    {
+      "address": "azurerm_storage_account.stspiritopsrootdev26",
+      "kind": "azurerm_storage_account",
+      "layer": "storage",
+      "name": "stspiritopsrootdev26",
+      "source": {
+        "path": "main.tf"
+      },
+      "state": "create"
+    },
+    {
       "address": "azurerm_subnet.snet-app-dev",
       "kind": "azurerm_subnet",
       "layer": "networking",
@@ -83,7 +133,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "drift"
+      "state": "unchanged"
     },
     {
       "address": "azurerm_subnet_network_security_group_association.snet-nsg-association",
@@ -103,7 +153,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "drift"
+      "state": "unchanged"
     }
   ],
   "version": 1

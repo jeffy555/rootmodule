@@ -1,20 +1,30 @@
 flowchart LR
-  n35521a41ff782fc49e06e713dce24f13d5f6b9c30d80e8c0b80a799b150e6616["spiritops-openai-cv — #43; Create"]
-  style n35521a41ff782fc49e06e713dce24f13d5f6b9c30d80e8c0b80a799b150e6616 fill:#12212b,color:#e5f0f6,stroke:#45d99b,stroke-width:2px
+  n35521a41ff782fc49e06e713dce24f13d5f6b9c30d80e8c0b80a799b150e6616["spiritops-openai-cv — #33; Drift"]
+  style n35521a41ff782fc49e06e713dce24f13d5f6b9c30d80e8c0b80a799b150e6616 fill:#12212b,color:#e5f0f6,stroke:#ff9a4c,stroke-width:2px
+  n3359ef344e8d501636e058c77ceea2d663761d805a8c3da18fc0c507abe737c1["app-spiritops-root-dev — #43; Create"]
+  style n3359ef344e8d501636e058c77ceea2d663761d805a8c3da18fc0c507abe737c1 fill:#12212b,color:#e5f0f6,stroke:#45d99b,stroke-width:2px
   na3a895ea57514ffd41a6ebebdea1a217f2d47b8f375dfbcc471e10b9127a485c["nsg-spiritops-network-demo-dev — #61; Unchanged"]
   style na3a895ea57514ffd41a6ebebdea1a217f2d47b8f375dfbcc471e10b9127a485c fill:#12212b,color:#e5f0f6,stroke:#8cabb9,stroke-width:2px
   n3f8247fd45bf142fed16ee2f91acafcbfc489d27f37c44c281e95480e11375d1["rg-spiritops-network-demo-dev — #61; Unchanged"]
   style n3f8247fd45bf142fed16ee2f91acafcbfc489d27f37c44c281e95480e11375d1 fill:#12212b,color:#e5f0f6,stroke:#8cabb9,stroke-width:2px
-  n625ef6b81d52267bf4a7cbe94b4ee570f730450729c87a5dc756d612e367fe56["snet-app-dev — #33; Drift"]
-  style n625ef6b81d52267bf4a7cbe94b4ee570f730450729c87a5dc756d612e367fe56 fill:#12212b,color:#e5f0f6,stroke:#ff9a4c,stroke-width:2px
+  n03b28b1750612858033a9edefa298296ba6436069e8d7ee28c504197c18f62e8["asp-spiritops-root-dev — #43; Create"]
+  style n03b28b1750612858033a9edefa298296ba6436069e8d7ee28c504197c18f62e8 fill:#12212b,color:#e5f0f6,stroke:#45d99b,stroke-width:2px
+  n85b5cb2b932c011e1a69a2513dec7204e39552ee6fd9c29ce635413f356de920["stspiritopsrootdev26 — #43; Create"]
+  style n85b5cb2b932c011e1a69a2513dec7204e39552ee6fd9c29ce635413f356de920 fill:#12212b,color:#e5f0f6,stroke:#45d99b,stroke-width:2px
+  n625ef6b81d52267bf4a7cbe94b4ee570f730450729c87a5dc756d612e367fe56["snet-app-dev — #61; Unchanged"]
+  style n625ef6b81d52267bf4a7cbe94b4ee570f730450729c87a5dc756d612e367fe56 fill:#12212b,color:#e5f0f6,stroke:#8cabb9,stroke-width:2px
   n6653e6c3836738d8fb0733a741b632e6333b4610eafd2166fd599c361b0c715f["azurerm_subnet_network_security_group_association.snet-nsg-association — #61; Unchanged"]
   style n6653e6c3836738d8fb0733a741b632e6333b4610eafd2166fd599c361b0c715f fill:#12212b,color:#e5f0f6,stroke:#8cabb9,stroke-width:2px
-  na83604f6b3788717d87fb1ff99fee9f54ac877097f1ec7c45360db352c43cb47["vnet-spiritops-network-demo-dev — #33; Drift"]
-  style na83604f6b3788717d87fb1ff99fee9f54ac877097f1ec7c45360db352c43cb47 fill:#12212b,color:#e5f0f6,stroke:#ff9a4c,stroke-width:2px
+  na83604f6b3788717d87fb1ff99fee9f54ac877097f1ec7c45360db352c43cb47["vnet-spiritops-network-demo-dev — #61; Unchanged"]
+  style na83604f6b3788717d87fb1ff99fee9f54ac877097f1ec7c45360db352c43cb47 fill:#12212b,color:#e5f0f6,stroke:#8cabb9,stroke-width:2px
   na3a895ea57514ffd41a6ebebdea1a217f2d47b8f375dfbcc471e10b9127a485c -->|"depends on"| n6653e6c3836738d8fb0733a741b632e6333b4610eafd2166fd599c361b0c715f
   n3f8247fd45bf142fed16ee2f91acafcbfc489d27f37c44c281e95480e11375d1 -->|"depends on"| n35521a41ff782fc49e06e713dce24f13d5f6b9c30d80e8c0b80a799b150e6616
+  n3f8247fd45bf142fed16ee2f91acafcbfc489d27f37c44c281e95480e11375d1 -->|"depends on"| n3359ef344e8d501636e058c77ceea2d663761d805a8c3da18fc0c507abe737c1
   n3f8247fd45bf142fed16ee2f91acafcbfc489d27f37c44c281e95480e11375d1 -->|"depends on"| na3a895ea57514ffd41a6ebebdea1a217f2d47b8f375dfbcc471e10b9127a485c
+  n3f8247fd45bf142fed16ee2f91acafcbfc489d27f37c44c281e95480e11375d1 -->|"depends on"| n03b28b1750612858033a9edefa298296ba6436069e8d7ee28c504197c18f62e8
+  n3f8247fd45bf142fed16ee2f91acafcbfc489d27f37c44c281e95480e11375d1 -->|"depends on"| n85b5cb2b932c011e1a69a2513dec7204e39552ee6fd9c29ce635413f356de920
   n3f8247fd45bf142fed16ee2f91acafcbfc489d27f37c44c281e95480e11375d1 -->|"depends on"| n625ef6b81d52267bf4a7cbe94b4ee570f730450729c87a5dc756d612e367fe56
   n3f8247fd45bf142fed16ee2f91acafcbfc489d27f37c44c281e95480e11375d1 -->|"depends on"| na83604f6b3788717d87fb1ff99fee9f54ac877097f1ec7c45360db352c43cb47
+  n03b28b1750612858033a9edefa298296ba6436069e8d7ee28c504197c18f62e8 -->|"depends on"| n3359ef344e8d501636e058c77ceea2d663761d805a8c3da18fc0c507abe737c1
   n625ef6b81d52267bf4a7cbe94b4ee570f730450729c87a5dc756d612e367fe56 -->|"depends on"| n6653e6c3836738d8fb0733a741b632e6333b4610eafd2166fd599c361b0c715f
   na83604f6b3788717d87fb1ff99fee9f54ac877097f1ec7c45360db352c43cb47 -->|"depends on"| n625ef6b81d52267bf4a7cbe94b4ee570f730450729c87a5dc756d612e367fe56
