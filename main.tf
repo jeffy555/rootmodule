@@ -30,3 +30,11 @@ resource "azurerm_subnet_network_security_group_association" "snet-nsg-associati
   subnet_id                 = azurerm_subnet.snet-app-dev.id
   network_security_group_id = azurerm_network_security_group.nsg-spiritops-network-demo-dev.id
 }
+resource "azurerm_cognitive_account" "spiritops-openai-cv" {
+  name                = "spiritops-openai-cv"
+  resource_group_name = azurerm_resource_group.rg-spiritops-network-demo-dev.name
+  location            = azurerm_resource_group.rg-spiritops-network-demo-dev.location
+  kind                = "OpenAI"
+  sku_name            = "S0"
+  tags                = local.required_tags
+}

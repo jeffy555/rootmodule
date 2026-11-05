@@ -1,0 +1,33 @@
+{
+  "actor": "loavesflash@gmail.com",
+  "applied_at": null,
+  "approver": null,
+  "artifact_paths": {
+    "graphJson": ".spiritops/architecture/history/01M6NKJH05ETS57ZMM1FD8YDAS/graph.json",
+    "graphMmd": ".spiritops/architecture/history/01M6NKJH05ETS57ZMM1FD8YDAS/graph.mmd",
+    "graphSvg": ".spiritops/architecture/history/01M6NKJH05ETS57ZMM1FD8YDAS/graph.svg"
+  },
+  "blast_radius": 1,
+  "branch": "feature/new-root-module-v1.0",
+  "build_id": "01M6NKJH05ETS57ZMM1FD8YDAS",
+  "commit_sha": "",
+  "created_at": "2026-11-05T10:20:17.366Z",
+  "diagram_hash": "56b3d52d76863b5cd464737fda9880aeac1206a76e4a0df5ec50735f0b52442e",
+  "drift_detected": true,
+  "duration_ms": null,
+  "intent_ids": [
+    "c0998355-ac71-48c0-9a82-3ab4d9593506"
+  ],
+  "parent_build_id": "01M69MD3JZ582273ZMQYZ7ZMVN",
+  "patch_id": "apply:c0998355-ac71-48c0-9a82-3ab4d9593506",
+  "plan_summary": {
+    "add": 1,
+    "destroy": 0,
+    "drift": 2,
+    "modify": 0,
+    "replace": 0
+  },
+  "repo": "jeffy555/rootmodule",
+  "status": "planned",
+  "workspace_id": "e1b3b924-66d4-8a1e-a6af-9bce6a547afa"
+}

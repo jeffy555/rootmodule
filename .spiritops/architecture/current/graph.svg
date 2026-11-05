@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1468 503" role="img" aria-labelledby="title description" data-build-id="01M69MD3JZ582273ZMQYZ7ZMVN">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1468 581" role="img" aria-labelledby="title description" data-build-id="01M6NKJH05ETS57ZMM1FD8YDAS">
 <title id="title">SpiritOps architecture</title>
 <desc id="description">Directional resource dependencies. Each node includes its change label and source link.</desc>
 <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#8cabb9"/></marker></defs>
-<rect width="1468" height="503" fill="#0b141b"/>
+<rect width="1468" height="581" fill="#0b141b"/>
 <g font-family="sans-serif" fill="#e5f0f6"><text x="24" y="30" font-size="19">SpiritOps</text>
-<text x="24" y="53" font-size="12">Build 01M69MD3JZ582273ZMQYZ7ZMVN · Source uncommitted · Parent none</text>
+<text x="24" y="53" font-size="12">Build 01M6NKJH05ETS57ZMM1FD8YDAS · Source 77126d03 · Parent 01M69MD3JZ582273ZMQYZ7ZMVN</text>
 <text x="24" y="80" font-size="12" fill="#8cabb9">= Unchanged</text>
 <text x="156" y="80" font-size="12" fill="#45d99b">+ Create</text>
 <text x="288" y="80" font-size="12" fill="#f4c265">~ Modify</text>
@@ -12,39 +12,58 @@
 <text x="552" y="80" font-size="12" fill="#ff747e">↻ Replace</text>
 <text x="684" y="80" font-size="12" fill="#ff9a4c">! Drift</text>
 <polyline points="1056,359 1098,359 1146.18,341" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="304.67,331 370,359 552,359 734,359 776,359" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="328,281 370,281 552,281 734,281 776,267.62" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="281.81,231 370,184 412,184" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="291.41,399 370,437 412,437" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="328,356.69 370,359 552,359 734,359 776,359" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="321.82,299 370,281 552,281 734,281 776,267.62" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="243.15,299 370,184 412,184" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
 <polyline points="1056,223 1098,223 1146.18,241" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
 <polyline points="692,184 734,184 776,193" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<g id="na3a895ea57514ffd41a6ebebdea1a217f2d47b8f375dfbcc471e10b9127a485c" data-address="azurerm_network_security_group.nsg-spiritops-network-demo-dev" data-build-id="01M69MD3JZ582273ZMQYZ7ZMVN">
-<title>azurerm_network_security_group.nsg-spiritops-network-demo-dev — Create</title><rect x="776" y="309" width="280" height="100" rx="10" fill="#12212b" stroke="#45d99b" stroke-width="2"/>
+<g id="n35521a41ff782fc49e06e713dce24f13d5f6b9c30d80e8c0b80a799b150e6616" data-address="azurerm_cognitive_account.spiritops-openai-cv" data-build-id="01M6NKJH05ETS57ZMM1FD8YDAS">
+<a href="https://github.com/jeffy555/rootmodule/blob/77126d03fb872df330d15e38854bf8594883141d/main.tf" aria-label="Open azurerm_cognitive_account.spiritops-openai-cv source">
+<title>azurerm_cognitive_account.spiritops-openai-cv — Create</title><rect x="412" y="387" width="280" height="100" rx="10" fill="#12212b" stroke="#45d99b" stroke-width="2"/>
+<text x="424" y="412" font-size="14">spiritops-openai-cv</text>
+<text x="424" y="435" font-size="11">azurerm_cognitive_account</text>
+<text x="424" y="464" font-size="12" fill="#45d99b">+ Create</text>
+</a>
+</g>
+<g id="na3a895ea57514ffd41a6ebebdea1a217f2d47b8f375dfbcc471e10b9127a485c" data-address="azurerm_network_security_group.nsg-spiritops-network-demo-dev" data-build-id="01M6NKJH05ETS57ZMM1FD8YDAS">
+<a href="https://github.com/jeffy555/rootmodule/blob/77126d03fb872df330d15e38854bf8594883141d/main.tf" aria-label="Open azurerm_network_security_group.nsg-spiritops-network-demo-dev source">
+<title>azurerm_network_security_group.nsg-spiritops-network-demo-dev — Unchanged</title><rect x="776" y="309" width="280" height="100" rx="10" fill="#12212b" stroke="#8cabb9" stroke-width="2"/>
 <text x="788" y="334" font-size="14">nsg-spiritops-network-demo-dev</text>
 <text x="788" y="357" font-size="11">azurerm_network_security_group</text>
-<text x="788" y="386" font-size="12" fill="#45d99b">+ Create</text>
+<text x="788" y="386" font-size="12" fill="#8cabb9">= Unchanged</text>
+</a>
 </g>
-<g id="n3f8247fd45bf142fed16ee2f91acafcbfc489d27f37c44c281e95480e11375d1" data-address="azurerm_resource_group.rg-spiritops-network-demo-dev" data-build-id="01M69MD3JZ582273ZMQYZ7ZMVN">
-<title>azurerm_resource_group.rg-spiritops-network-demo-dev — Create</title><rect x="48" y="231" width="280" height="100" rx="10" fill="#12212b" stroke="#45d99b" stroke-width="2"/>
-<text x="60" y="256" font-size="14">rg-spiritops-network-demo-dev</text>
-<text x="60" y="279" font-size="11">azurerm_resource_group</text>
-<text x="60" y="308" font-size="12" fill="#45d99b">+ Create</text>
+<g id="n3f8247fd45bf142fed16ee2f91acafcbfc489d27f37c44c281e95480e11375d1" data-address="azurerm_resource_group.rg-spiritops-network-demo-dev" data-build-id="01M6NKJH05ETS57ZMM1FD8YDAS">
+<a href="https://github.com/jeffy555/rootmodule/blob/77126d03fb872df330d15e38854bf8594883141d/main.tf" aria-label="Open azurerm_resource_group.rg-spiritops-network-demo-dev source">
+<title>azurerm_resource_group.rg-spiritops-network-demo-dev — Unchanged</title><rect x="48" y="299" width="280" height="100" rx="10" fill="#12212b" stroke="#8cabb9" stroke-width="2"/>
+<text x="60" y="324" font-size="14">rg-spiritops-network-demo-dev</text>
+<text x="60" y="347" font-size="11">azurerm_resource_group</text>
+<text x="60" y="376" font-size="12" fill="#8cabb9">= Unchanged</text>
+</a>
 </g>
-<g id="n625ef6b81d52267bf4a7cbe94b4ee570f730450729c87a5dc756d612e367fe56" data-address="azurerm_subnet.snet-app-dev" data-build-id="01M69MD3JZ582273ZMQYZ7ZMVN">
-<title>azurerm_subnet.snet-app-dev — Create</title><rect x="776" y="173" width="280" height="100" rx="10" fill="#12212b" stroke="#45d99b" stroke-width="2"/>
+<g id="n625ef6b81d52267bf4a7cbe94b4ee570f730450729c87a5dc756d612e367fe56" data-address="azurerm_subnet.snet-app-dev" data-build-id="01M6NKJH05ETS57ZMM1FD8YDAS">
+<a href="https://github.com/jeffy555/rootmodule/blob/77126d03fb872df330d15e38854bf8594883141d/main.tf" aria-label="Open azurerm_subnet.snet-app-dev source">
+<title>azurerm_subnet.snet-app-dev — Drift</title><rect x="776" y="173" width="280" height="100" rx="10" fill="#12212b" stroke="#ff9a4c" stroke-width="2"/>
 <text x="788" y="198" font-size="14">snet-app-dev</text>
 <text x="788" y="221" font-size="11">azurerm_subnet</text>
-<text x="788" y="250" font-size="12" fill="#45d99b">+ Create</text>
+<text x="788" y="250" font-size="12" fill="#ff9a4c">! Drift</text>
+</a>
 </g>
-<g id="n6653e6c3836738d8fb0733a741b632e6333b4610eafd2166fd599c361b0c715f" data-address="azurerm_subnet_network_security_group_association.snet-nsg-association" data-build-id="01M69MD3JZ582273ZMQYZ7ZMVN">
-<title>azurerm_subnet_network_security_group_association.snet-nsg-association — Create</title><rect x="1140" y="241" width="280" height="100" rx="10" fill="#12212b" stroke="#45d99b" stroke-width="2"/>
+<g id="n6653e6c3836738d8fb0733a741b632e6333b4610eafd2166fd599c361b0c715f" data-address="azurerm_subnet_network_security_group_association.snet-nsg-association" data-build-id="01M6NKJH05ETS57ZMM1FD8YDAS">
+<a href="https://github.com/jeffy555/rootmodule/blob/77126d03fb872df330d15e38854bf8594883141d/main.tf" aria-label="Open azurerm_subnet_network_security_group_association.snet-nsg-association source">
+<title>azurerm_subnet_network_security_group_association.snet-nsg-association — Unchanged</title><rect x="1140" y="241" width="280" height="100" rx="10" fill="#12212b" stroke="#8cabb9" stroke-width="2"/>
 <text x="1152" y="266" font-size="14">azurerm_subnet_network_securit…</text>
 <text x="1152" y="289" font-size="11">azurerm_subnet_network_security_group_…</text>
-<text x="1152" y="318" font-size="12" fill="#45d99b">+ Create</text>
+<text x="1152" y="318" font-size="12" fill="#8cabb9">= Unchanged</text>
+</a>
 </g>
-<g id="na83604f6b3788717d87fb1ff99fee9f54ac877097f1ec7c45360db352c43cb47" data-address="azurerm_virtual_network.vnet-spiritops-network-demo-dev" data-build-id="01M69MD3JZ582273ZMQYZ7ZMVN">
-<title>azurerm_virtual_network.vnet-spiritops-network-demo-dev — Create</title><rect x="412" y="134" width="280" height="100" rx="10" fill="#12212b" stroke="#45d99b" stroke-width="2"/>
+<g id="na83604f6b3788717d87fb1ff99fee9f54ac877097f1ec7c45360db352c43cb47" data-address="azurerm_virtual_network.vnet-spiritops-network-demo-dev" data-build-id="01M6NKJH05ETS57ZMM1FD8YDAS">
+<a href="https://github.com/jeffy555/rootmodule/blob/77126d03fb872df330d15e38854bf8594883141d/main.tf" aria-label="Open azurerm_virtual_network.vnet-spiritops-network-demo-dev source">
+<title>azurerm_virtual_network.vnet-spiritops-network-demo-dev — Drift</title><rect x="412" y="134" width="280" height="100" rx="10" fill="#12212b" stroke="#ff9a4c" stroke-width="2"/>
 <text x="424" y="159" font-size="14">vnet-spiritops-network-demo-dev</text>
 <text x="424" y="182" font-size="11">azurerm_virtual_network</text>
-<text x="424" y="211" font-size="12" fill="#45d99b">+ Create</text>
+<text x="424" y="211" font-size="12" fill="#ff9a4c">! Drift</text>
+</a>
 </g>
 </g></svg>
